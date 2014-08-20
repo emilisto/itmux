@@ -49,7 +49,7 @@ function itmux-ssh() {
 }
 
 function itmux-ssh-install {
-    local PACKAGES="autotools-dev automake autoconf pkg-config libevent-dev libncurses5-dev curl unzip"
+    local PACKAGES="build-essential autotools-dev automake autoconf pkg-config libevent-dev libncurses5-dev curl unzip"
 
     echo "$(cat <<EOF
 [[ -x \$(which apt-get) ]] || {
